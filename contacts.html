@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Advanced</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="content-wrapper">
+        <div class="navbar__logo-wrapper">
+          <img src="./images/Arrow-right.svg" alt="arrow-right" />
+          <img src="./images/Logo.svg" alt="logo" />
+        </div>
+        <ul class="navbar__list">
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item-link">обучения</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item-link">Събития</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="trainers.html" class="navbar__list-item-link"
+              >Преподаватели</a
+            >
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-item-link">Блог</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="contacts.html" class="navbar__list-item-link">Контакти</a>
+          </li>
+        </ul>
+        <div class="navbar__actions">
+          <img
+            src="./images/Search-icon.svg"
+            alt="search-icon"
+            class="navbar__actions-image"
+          />
+          <button class="navbar__actions-button">вход</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="contacts-header">
+      <img src="./images/Map.svg" alt="map" class="contacts-header__image" />
+      <div class="content-wrapper">
+        <article class="contacts-header__card">
+          <div class="contacts-header__card-field">
+            <h3 class="contacts-header__card-title">Адрес:</h3>
+            <p class="contacts-header__card-text">
+              София, кв. Изгрев, ул. "Тинтява" 15-17, етаж 1, ПК: 1113
+            </p>
+          </div>
+          <div class="contacts-header__card-field">
+            <h3 class="contacts-header__card-title">Работно време:</h3>
+            <div class="contacts-header__card-content">
+              <p class="contacts-header__card-text text-secondary">
+                9:00 - 19:30
+              </p>
+              <p class="contacts-header__card-text">Понеделник - Петък</p>
+              <p class="contacts-header__card-text text-secondary">
+                8:30 - 18:00
+              </p>
+              <p class="contacts-header__card-text">Събота и Неделя</p>
+            </div>
+          </div>
+          <div class="contacts-header__card-field">
+            <h3 class="contacts-header__card-title">Контакти:</h3>
+            <p class="contacts-header__card-text margin-bottom-12">
+              + 359 892 241 199
+            </p>
+            <p class="contacts-header__card-text">digital@softuni.bg</p>
+          </div>
+          <button class="contacts-header__card-button">
+            намери ни на картата
+          </button>
+        </article>
+      </div>
+    </header>
+
+    <main>
+      <section class="contacts-form-section">
+        <div class="content-wrapper">
+          <h2 class="contacts-form-section__title">Пишете ни</h2>
+          <form class="contacts-form-section__form">
+            <input type="text" placeholder="Заглавие" />
+            <input type="text" placeholder="Имейл адрес" />
+            <textarea placeholder="Съобщение"></textarea>
+            <button class="contacts-form-section__form-button">изпрати</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="contacts-route">
+        <div class="content-wrapper">
+          <h2 class="contacts-route__title">Как да стигна до SoftUni?</h2>
+          <article class="contacts-route__vehicles">
+            <article class="contacts-route__vehicle">
+              <h3 class="contacts-route__vehicle-title">Метро</h3>
+              <p class="contacts-route__vehicle-text">
+                Метростанция <strong>Жолио Кюри</strong> - на 5-10 минути от
+                СофтУни
+              </p>
+              <p class="contacts-route__vehicle-text">
+                Метростанция <strong>Г. М. Димитров</strong> - на 5-10 минути от
+                СофтУни
+              </p>
+            </article>
+            <article class="contacts-route__vehicle">
+              <h3 class="contacts-route__vehicle-title">Автобуси</h3>
+              <p class="contacts-route__vehicle-text">
+                <strong>, 413</strong> - Спирка “СТЦ Интерпред” (1112) или
+                спирка “ж.к. Дианабад” (0627) (на бул. Драган Цанков)
+              </p>
+              <p class="contacts-route__vehicle-text">
+                <strong>88, 94, 102</strong> - Спирка “ПК Диана” (1342) (на
+                10-ина минути от СофтУни)
+              </p>
+              <p class="contacts-route__vehicle-text">
+                <strong>88, 280, 294</strong> - Спирка “СБАЛ по онкология”
+                (0764) (на кръстовището на бул. Г. М. Димитров и бул. Драган
+                Цанков)
+              </p>
+              <p class="contacts-route__vehicle-text">
+                <strong>123, 69, 70, 88, 67, 413</strong> - Спирка “СБАЛ по
+                онкология” (2542) (на кръстовището на бул. Г. М. Димитров и бул.
+                Драган Цанков)
+              </p>
+            </article>
+            <article class="contacts-route__vehicle">
+              <h3 class="contacts-route__vehicle-title">Маршрутки</h3>
+              <p class="contacts-route__vehicle-text">
+                <strong>5</strong> - минава през метростанцията на бул Г. М.
+                Димитров
+              </p>
+              <p class="contacts-route__vehicle-text">
+                <strong>27</strong> - минава през метростанцията на бул Г. М.
+                Димитров
+              </p>
+            </article>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="content-wrapper">
+        <article class="footer__image-wrapper">
+          <img src="./images/Footer-logo.svg" alt="footer-logo" />
+        </article>
+        <article class="footer__lists">
+          <article class="footer__list-wrapper">
+            <h3 class="footer__list-title">Softuni Kids</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Начало</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Летни академии</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Преподаватели</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Блог</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Контакти</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Общи условия</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Лични данни</a>
+              </li>
+            </ul>
+          </article>
+          <article class="footer__list-wrapper">
+            <h3 class="footer__list-title">Всички обучения</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Курсове</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">Събития</a>
+              </li>
+            </ul>
+          </article>
+          <article class="footer__list-wrapper">
+            <h3 class="footer__list-title">Всички инициативи</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link"
+                  >Software University</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">SoftUni Digital</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">SoftUni Creative</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">SoftUni Svetlina</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link"
+                  >SoftUni Foundation</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="footer__list-wrapper social-media">
+            <h3 class="footer__list-title">Намери ни</h3>
+            <ul class="footer__list social-media-list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">
+                  <i class="fab fa-facebook footer__list-item-link-icon"></i>
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-item-link">
+                  <i class="fab fa-instagram footer__list-item-link-icon"></i>
+                </a>
+              </li>
+            </ul>
+            <p class="footer__list-text">
+              &copy; 2016-2020 - SoftUni Kids. All Rights Reserved.
+            </p>
+          </article>
+        </article>
+      </div>
+    </footer>
+  </body>
+</html>
