@@ -4,6 +4,14 @@ h1 {
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
+
+  @media #{$mq-400-down} {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 
 h2 {
