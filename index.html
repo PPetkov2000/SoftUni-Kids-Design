@@ -12,7 +12,7 @@
       <div class="content-wrapper">
         <div class="navbar__logo-wrapper">
           <img src="./images/Arrow-right.svg" alt="arrow-right" />
-          <img src="./images/Logo.svg" alt="logo" />
+          <a href="index.html"><img src="./images/Logo.svg" alt="logo" /></a>
         </div>
         <ul class="navbar__list">
           <li class="navbar__list-item">
@@ -129,17 +129,17 @@
           </div>
           <div class="info__details">
             <article class="info__details-difficulty">
-              <div class="info__details-image-wrapper">
-                <img src="./images/People.svg" alt="icon" />
-              </div>
-              <div class="info__details-content">
-                <h2 class="info__details-title">За кого е подходящ?</h2>
-                <p class="info__details-text main-page-text">
-                  Онлайн курсът е подходящ за напълно начинаещи: необходимо е
-                  децата да могат да четат и пишат и да имат достъп до компютър
-                  с интернет връзка.
-                </p>
-              </div>
+              <img
+                src="./images/People.svg"
+                alt="icon"
+                class="info__details-image"
+              />
+              <h2 class="info__details-title">За кого е подходящ?</h2>
+              <p class="info__details-text main-page-text">
+                Онлайн курсът е подходящ за <strong>напълно начинаещи:</strong>
+                необходимо е децата да могат да четат и пишат и да имат достъп
+                до компютър с интернет връзка.
+              </p>
             </article>
             <article class="info__details-skills">
               <img
@@ -147,18 +147,16 @@
                 alt="icon"
                 class="info__details-image"
               />
-              <div class="info__details-content">
-                <h2 class="info__details-title">
-                  Какво ще умее детето след курса?
-                </h2>
-                <p class="info__details-text main-page-text">
-                  При записване на второ дете (братче/сестриче) получавате 20%
-                  отстъпка от таксата за второто дете.
-                </p>
-                <p class="info__details-text main-page-text">
-                  Занятията стартират при сформиране на група.
-                </p>
-              </div>
+              <h2 class="info__details-title">
+                Какво ще умее детето след курса?
+              </h2>
+              <p class="info__details-text main-page-text">
+                При записване на второ дете (братче/сестриче) получавате 20%
+                отстъпка от таксата за второто дете.
+              </p>
+              <p class="info__details-text main-page-text">
+                Занятията стартират при сформиране на група.
+              </p>
             </article>
           </div>
         </div>
@@ -168,9 +166,9 @@
         <div class="content-wrapper">
           <article class="schedule__description">
             <img src="./images/Schedule-book.svg" alt="icon" />
-            <div>
-              <div class="schedule__content">
-                <h2 class="schedule__title">Програма на обучението</h2>
+            <h2 class="schedule__title">Програма на обучението</h2>
+            <div class="schedule__content">
+              <div>
                 <p class="schedule__text main-page-text">
                   През цялото време на курса ще имаме постоянна двустранна
                   комуникация с децата. Ще имат възможност да ни задават въпроси
@@ -200,9 +198,7 @@
               </ol>
             </div>
           </article>
-          <article class="schedule__image-wrapper">
-            <img src="./images/Schedule.svg" alt="book" />
-          </article>
+          <img src="./images/Schedule.svg" alt="book" class="schedule__image" />
         </div>
       </section>
 
@@ -223,17 +219,18 @@
           </article>
           <article class="additional-info__lectures">
             <img src="./images/Clock.svg" alt="icon" />
+            <h2 class="additional-info__title">
+              Кога и къде се провеждат занятията?
+            </h2>
             <div class="additional-info__content">
-              <h2 class="additional-info__title">
-                Кога и къде се провеждат занятията?
-              </h2>
               <p class="additional-info__text main-page-text">
                 Да се опише максимално подробно кога и къде се провеждат
                 занятията. За примера съм изпозлвал описание от онлайн курс.
               </p>
               <p class="additional-info__text main-page-text">
-                Курсът е в ОНЛАЙН ФОРМАТ. Обучението се провежда в рамките на 2
-                астрономически часa, веднъж седмично в продължение на 4 седмици.
+                Курсът е в <strong>ОНЛАЙН ФОРМАТ</strong>. Обучението се
+                провежда в рамките на <strong>2 астрономически часa</strong>,
+                веднъж седмично в продължение на <strong>4 седмици</strong>.
               </p>
               <p class="additional-info__text main-page-text">
                 Денят и часа зависят от групата, в която запишете детето си.
@@ -242,14 +239,17 @@
                 ни класна стая.
               </p>
               <p class="additional-info__text main-page-text">
-                Крайният срок за записване е 05/06/2020, 23:59 часа включително.
+                <strong
+                  >Крайният срок за записване е 05/06/2020, 23:59 часа
+                  включително.</strong
+                >
               </p>
             </div>
           </article>
           <article class="additional-info__more-info">
             <img src="./images/Innovation.svg" alt="icon" />
+            <h2 class="additional-info__title">Допълнителна информация</h2>
             <div class="additional-info__content">
-              <h2 class="additional-info__title">Допълнителна информация</h2>
               <p class="additional-info__text main-page-text">
                 В деня на първото занятие на вашето дете ще имаме нужда от два
                 подписани и попълнени екземпляра на договор за обучение в
@@ -334,7 +334,7 @@
               </li>
             </ul>
           </article>
-          <article class="footer__list-wrapper">
+          <article class="footer__list-wrapper mobile">
             <h3 class="footer__list-title">Всички инициативи</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
@@ -365,7 +365,7 @@
             </ul>
           </article>
           <article class="footer__list-wrapper social-media">
-            <h3 class="footer__list-title">Намери ни</h3>
+            <h3 class="footer__list-title social-media-title">Намери ни</h3>
             <ul class="footer__list social-media-list">
               <li class="footer__list-item">
                 <a href="#" class="footer__list-item-link footer-text">
@@ -378,11 +378,11 @@
                 </a>
               </li>
             </ul>
-            <p class="footer__list-text footer-text">
-              &copy; 2016-2020 - SoftUni Kids. All Rights Reserved.
-            </p>
           </article>
         </article>
+        <p class="footer__list-text footer-text">
+          &copy; 2016-2020 - SoftUni Kids. All Rights Reserved.
+        </p>
       </div>
     </footer>
   </body>
