@@ -12,7 +12,14 @@
       <div class="content-wrapper">
         <div class="navbar__logo-wrapper">
           <img src="./images/Arrow-right.svg" alt="arrow-right" />
-          <a href="index.html"><img src="./images/Logo.svg" alt="logo" /></a>
+          <a href="index.html">
+            <img src="./images/Logo.svg" alt="logo" class="navbar__logo" />
+            <img
+              src="./images/Logo-Vertical.svg"
+              alt="logo"
+              class="navbar__logo-vertical"
+            />
+          </a>
         </div>
         <ul class="navbar__list">
           <li class="navbar__list-item">
@@ -22,7 +29,7 @@
             <a href="#" class="navbar__list-item-link">Събития</a>
           </li>
           <li class="navbar__list-item">
-            <a href="trainers.html" class="navbar__list-item-link"
+            <a href="./pages/trainers.html" class="navbar__list-item-link"
               >Преподаватели</a
             >
           </li>
@@ -30,16 +37,23 @@
             <a href="#" class="navbar__list-item-link">Блог</a>
           </li>
           <li class="navbar__list-item">
-            <a href="contacts.html" class="navbar__list-item-link">Контакти</a>
+            <a href="./pages/contacts.html" class="navbar__list-item-link"
+              >Контакти</a
+            >
           </li>
         </ul>
         <div class="navbar__actions">
           <img
             src="./images/Search-icon.svg"
             alt="search-icon"
-            class="navbar__actions-image"
+            class="navbar__actions-search"
           />
           <button class="navbar__actions-button">вход</button>
+          <img
+            src="./images/Hamburger-menu.svg"
+            alt="menu"
+            class="navbar__actions-menu"
+          />
         </div>
       </div>
     </nav>
